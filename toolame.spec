@@ -1,5 +1,5 @@
 Summary:	tooLAME - an optimized MPEG 1/2 layer 2 audio encoder
-Summary(pl):	tooLAME - zoptymalizowany koder d¼wiêku MPEG 1/2 layer 2
+Summary(pl.UTF-8):   tooLAME - zoptymalizowany koder dÅºwiÄ™ku MPEG 1/2 layer 2
 Name:		toolame
 Version:	0.2l
 %define	fver	%(echo %{version} | tr -d .)
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 tooLAME is an optimized MPEG Audio 1/2 Layer 2 encoder.
 
-%description -l pl
-tooLAME to zoptymalizowany koder d¼wiêku MPEG 1/2 layer 2.
+%description -l pl.UTF-8
+tooLAME to zoptymalizowany koder dÅºwiÄ™ku MPEG 1/2 layer 2.
 
 %prep
 %setup -q -n %{name}-%{fver}
